@@ -10,4 +10,6 @@ gus = city_air['RealtimeCityAir']['row']
 
 for gu in gus:
     if gu['PM10'] < 10:
-        print (gu['MSRSTE_NM'], gu['PM10'])
+        print (gu['MSRSTE_NM'], gu['PM10'],)
+
+        #어렵다 어려워!!!!!
